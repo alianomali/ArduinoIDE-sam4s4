@@ -1,12 +1,19 @@
 {
+	"packages": [
+		{
           "name": "CMSIS-Atmel",
-          "version": "%%VERSION%%",
+		  "maintainer": "Alianomali",
+		  "websiteURL": "https://github.com/alianomali",
+          "email": "jawaad.ali.ali@gmail.co",
           "systems":
-          [
+		  },
+		  "platforms":[
             {
-              "host": "sam4s4 Project",
-              "url": "https://github.com/arduino/ArduinoModule-CMSIS-Atmel/archive/v1.1.0.zip",
-              "archiveFileName": "v1.1.0",
+              "name": "sam4s4 Project",
+			  "architecture": "sam4s4",
+			  "category": "Atmel Cortex M4 SAM",
+              "url": "https://github.com/arduino/ArduinoModule-CMSIS-Atmel/archive/v1.1.0.tar.gz",
+              "archiveFileName": "v1.1.0.tar.gz",
               "checksum": "SHA-256:df76b3a6c82eea57bcd962fda42bc4ffb3a3a1fa",
               "size": "4479361"
             },
@@ -47,3 +54,5 @@
             }
           ]
         }
+	}
+}
