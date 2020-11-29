@@ -7,7 +7,8 @@
           "email": "jawaad.ali.ali@gmail.co",
           "systems":
 		  },
-		  "platforms":[
+		  "platforms":
+		  [
             {
               "name": "sam4s4 Project",
 			  "architecture": "sam4s4",
@@ -17,6 +18,11 @@
               "checksum": "SHA-256:df76b3a6c82eea57bcd962fda42bc4ffb3a3a1fa",
               "size": "4479361"
             },
+			"boards": [
+			 {
+				"name": "LED Controller"
+			 }
+			 ],
             {
               "host": "x86_64-apple-darwin",
               "url": "https://github.com/arduino/ArduinoModule-CMSIS-Atmel/releases/download/v%%VERSION%%/%%FILENAME%%",
