@@ -50,7 +50,7 @@
               "packager": "arduino",
               "name": "CMSIS",
               "version": "4.5.0"
-            }
+            },
           ]
         }
       ],
