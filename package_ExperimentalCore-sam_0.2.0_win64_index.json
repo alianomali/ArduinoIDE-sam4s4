@@ -9,15 +9,12 @@
       },
       "platforms":[
         {
+		  "category": "Experimental",
           "name": "Experimental SAM core",
-          "architecture": "sam2",
-          "version": "0.2.0",
-          "category": "Partner",
-          "help":{
-        "online": "http://www.arduino.cc/en/Reference/HomePage"
-      },
 		  "url": "https://github.com/aethaniel/ExperimentalCore-sam/releases/download/v0.2.0/ExperimentalCore-sam-0.2.0-win64.tar.bz2",
-          "archiveFileName": "ExperimentalCore-sam-0.2.0-win64.tar.bz2",
+		  "version": "0.2.0",
+          "architecture": "sam2",
+          "archiveFileName": "ExperimentalCore-sam-0.2.0-win64.tar.bz2",                
           "checksum": "SHA-256:05ca3231fee4224c3a9b4d642396e979c774be59f503cca45883f27d6b1a09ba",
           "size": "1586813",
           "boards":[
@@ -27,7 +24,7 @@
             { "name": "Atmel SAM4S-Xplained Pro" },
             { "name": "Atmel SAM4E-Xplained Pro" },
             { "name": "Atmel SAMG55-Xplained Pro" },
-          ]
+          ],
           "toolsDependencies":[
             {
               "packager": "arduino",
@@ -49,10 +46,11 @@
               "name": "CMSIS",
               "version": "4.5.0"
             }
-          ]
+          ],
         }
       ],
       "tools":[]
     }
   ]
 }
+
