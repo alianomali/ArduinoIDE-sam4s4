@@ -1,27 +1,26 @@
 {
-  "packages":
-  [
+  "packages":[
     {
       "name": "experimentalcore-sam",
       "maintainer": "Thibaut VIARD",
       "websiteURL": "https://github.com/aethaniel/ExperimentalCore-sam/wiki",
-      "help":
-      {
+      "help":{
         "online": "http://www.arduino.cc/en/Reference/HomePage"
       },
-      "platforms":
-      [
+      "platforms":[
         {
           "name": "Experimental SAM core",
           "architecture": "sam2",
           "version": "0.2.0",
           "category": "Partner",
-          "url": "https://github.com/aethaniel/ExperimentalCore-sam/releases/download/v0.2.0/ExperimentalCore-sam-0.2.0-win64.tar.bz2",
+          "help":{
+        "online": "http://www.arduino.cc/en/Reference/HomePage"
+      },
+		  "url": "https://github.com/aethaniel/ExperimentalCore-sam/releases/download/v0.2.0/ExperimentalCore-sam-0.2.0-win64.tar.bz2",
           "archiveFileName": "ExperimentalCore-sam-0.2.0-win64.tar.bz2",
           "checksum": "SHA-256:05ca3231fee4224c3a9b4d642396e979c774be59f503cca45883f27d6b1a09ba",
           "size": "1586813",
-          "boards":
-          [
+          "boards":[
             { "name": "Arduino Due" },
             { "name": "Atmel SAM4S-Xplained" },
             { "name": "Atmel SAM4S-WPIR-RD" },
@@ -29,8 +28,7 @@
             { "name": "Atmel SAM4E-Xplained Pro" },
             { "name": "Atmel SAMG55-Xplained Pro" },
           ]
-          "toolsDependencies":
-          [
+          "toolsDependencies":[
             {
               "packager": "arduino",
               "name": "arm-none-eabi-gcc",
@@ -50,13 +48,11 @@
               "packager": "arduino",
               "name": "CMSIS",
               "version": "4.5.0"
-            },
+            }
           ]
         }
       ],
-      "tools":
-      [
-      ]
+      "tools":[]
     }
   ]
 }
