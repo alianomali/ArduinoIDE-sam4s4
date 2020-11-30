@@ -1,29 +1,26 @@
 {
   "packages": [
     {
-      "name": "experimentalcore-sam",
-      "maintainer": "Thibaut VIARD",
-      "websiteURL": "https://github.com/aethaniel/ExperimentalCore-sam/wiki",
+      "name": "arduino-mkr1000",
+      "maintainer": "Arduino Betatesting",
+      "websiteURL": "http://www.arduino.cc/",
       "email": "packages@arduino.cc",
       "help": {
         "online": "http://www.arduino.cc/en/Reference/HomePage"
       },
       "platforms": [
         {
-          "name": "Experimental SAM core",
-          "architecture": "sam2",
-          "version": "0.2.0",
-          "category": "Partner",
-          "url": "https://github.com/aethaniel/ExperimentalCore-sam/releases/download/v0.2.0/ExperimentalCore-sam-0.2.0-win64.tar.bz2",
-          "archiveFileName": "ExperimentalCore-sam-0.2.0-win64.tar.bz2",
-          "checksum": "SHA-256:05ca3231fee4224c3a9b4d642396e979c774be59f503cca45883f27d6b1a09ba",
-          "size": "1586813",
+          "name": "hackster.io - MKR1000 build",
+          "architecture": "samd",
+          "version": "1.6.4-mkr02",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/mkr1000-1.6.4-02.tar.bz2",
+          "archiveFileName": "mkr1000-1.6.4-02.tar.bz2",
+          "checksum": "SHA-256:df41445fc1ff72c4f143c316c91346de95d2cd9cec5ad093ffca96bebbeaa0b6",
+          "size": "979038",
           "boards": [
-            { "name": "Atmel SAM4S-Xplained" },
-			{ "name": "Atmel SAM4S-WPIR-RD" },
-			{ "name": "Atmel SAM4S-Xplained Pro" },
-			{ "name": "Atmel SAM4E-Xplained Pro" },
-            { "name": "Atmel SAMG55-Xplained Pro" }
+            { "name": "Arduino/Genuino Zero" },
+            { "name": "Arduino/Genuino MKR1000" }
           ],
           "toolsDependencies": [
             {
@@ -34,7 +31,7 @@
             {
               "packager": "arduino",
               "name": "bossac",
-              "version": "1.7.0"
+              "version": "1.6.1-arduino"
             },
             {
               "packager": "arduino",
