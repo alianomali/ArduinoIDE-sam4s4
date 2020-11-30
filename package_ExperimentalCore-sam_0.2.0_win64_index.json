@@ -1,16 +1,14 @@
 {
-  "packages":
-  [
+  "packages": [
     {
       "name": "experimentalcore-sam",
       "maintainer": "Thibaut VIARD",
       "websiteURL": "https://github.com/aethaniel/ExperimentalCore-sam/wiki",
-      "help":
-      {
+      "email": "packages@arduino.cc",
+      "help": {
         "online": "http://www.arduino.cc/en/Reference/HomePage"
       },
-      "platforms":
-      [
+      "platforms": [
         {
           "name": "Experimental SAM core",
           "architecture": "sam2",
@@ -20,17 +18,14 @@
           "archiveFileName": "ExperimentalCore-sam-0.2.0-win64.tar.bz2",
           "checksum": "SHA-256:05ca3231fee4224c3a9b4d642396e979c774be59f503cca45883f27d6b1a09ba",
           "size": "1586813",
-          "boards":
-          [
-            { "name": "Arduino Due" },
+          "boards": [
             { "name": "Atmel SAM4S-Xplained" },
-            { "name": "Atmel SAM4S-WPIR-RD" },
-            { "name": "Atmel SAM4S-Xplained Pro" },
-            { "name": "Atmel SAM4E-Xplained Pro" },
-            { "name": "Atmel SAMG55-Xplained Pro" },
+			{ "name": "Atmel SAM4S-WPIR-RD" },
+			{ "name": "Atmel SAM4S-Xplained Pro" },
+			{ "name": "Atmel SAM4E-Xplained Pro" },
+            { "name": "Atmel SAMG55-Xplained Pro" }
           ],
-          "toolsDependencies":
-          [
+          "toolsDependencies": [
             {
               "packager": "arduino",
               "name": "arm-none-eabi-gcc",
@@ -49,13 +44,48 @@
             {
               "packager": "arduino",
               "name": "CMSIS",
-              "version": "4.5.0"
+              "version": "4.0.0-atmel"
+            }
+          ]
+        },
+        {
+          "name": "hackster.io - MKR1000 build",
+          "architecture": "samd",
+          "version": "1.6.4-mkr01",
+          "category": "Arduino",
+          "url": "http://downloads.arduino.cc/cores/mkr1000-1.6.4-01.tar.bz2",
+          "archiveFileName": "mkr1000-1.6.4-01.tar.bz2",
+          "checksum": "SHA-256:92326914c28a2d56ea1509a8b3864a0186a5b8a4634c42d35048d9ccea6334b6",
+          "size": "978601",
+          "boards": [
+            { "name": "Arduino/Genuino Zero" },
+            { "name": "Arduino/Genuino MKR1000" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
             }
           ]
         }
       ],
-      "tools":
-      [
+      "tools": [
       ]
     }
   ]
